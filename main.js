@@ -12,3 +12,12 @@ $(document).ready(function() {
 	displayTime()
 	setInterval(displayTime,1000)
 });
+
+
+
+
+/* normal
+parseInt(num, 10)
+
+// hex
+parseInt(rgbValue, 16) */
