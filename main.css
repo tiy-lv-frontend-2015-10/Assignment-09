@@ -1,0 +1,38 @@
+#wrapper {
+	height: 900px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#timerBox {
+	/* background-color: #000000; */
+	margin: 0 auto;
+	height: 500px;
+	width: 500px;
+}
+
+.gradient {
+  background-image:
+    radial-gradient(
+      circle closest-side,
+      #D8CEF6,
+      #4B088A
+    );
+}
+
+#time {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#clock {
+	text-align: center;
+	font-family: "Plaster", "sans-serif";
+	font-size: 70px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 auto;
+	padding-top: 140px;
+	text-shadow: 2px 2px 2px #000;
+
+}
