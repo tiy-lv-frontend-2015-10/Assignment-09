@@ -18,7 +18,9 @@ var updateTime = function() {
 
   var currentSeconds = (seconds < 10 ? "0" : "") + seconds;
 
-  var currentTime = (hours + ":" + currentMinutes + ":" + currentSeconds);
+  var currentHours = (hours > 12 ? hours - 12 : hours);
+
+  var currentTime = (currentHours + ":" + currentMinutes + ":" + currentSeconds);
 
   $("#clock").html(currentTime);
 }
