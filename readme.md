@@ -39,3 +39,4 @@ After completing this assignment, you should:
 
 - [Window Timers](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers)
 - [JavaScript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+- [Javascript Date Formatting](http://jacwright.com/projects/javascript/date_format/)
