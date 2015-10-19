@@ -4,7 +4,7 @@ $ (document).ready(function(){
   	var hours = displaytime.getHours();
   	var minutes = displaytime.getMinutes();
   	var seconds = displaytime.getSeconds();
-  	var meridiem = "AM";
+  	
   	if(seconds < 10 ){
   		seconds = "0" + seconds;
   	}
@@ -16,7 +16,7 @@ $ (document).ready(function(){
 
   	if(hours > 12 ){
   		hours = hours - 12;
-  		meridiem = "PM";
+  		
 
   	}
 
