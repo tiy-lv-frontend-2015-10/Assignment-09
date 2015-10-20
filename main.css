@@ -9,10 +9,10 @@
 
 #timeSlot {
 	margin-top: 200px;
-	margin-left: 360px;
+	margin-left: 340px;
 }
 
-#hours, #minutes, #seconds {
+#hours, #minutes, #seconds, #amPm {
 	color: white;
 	font-size: 3rem;
 }

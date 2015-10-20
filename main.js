@@ -12,39 +12,58 @@ function displayTime() {
 	$('#hours').html(formatHour(rawTime));
 	$('#minutes').html(formatMinute(rawTime));
 	$('#seconds').html(formatSecond(rawTime));
+	$('#amPm').html(formatAP(rawTime));
 }
 
 function formatHour(t) {
+	var hap;
+	var hd = "";
 	var h = t.getHours();
-	 	if (h < 10) {
-			var hd = "0" + h.toString();
-		}else {
-			var hd = h.toString();
+	 	if (h < 13) {
+			var hap = h;
+		}else { var hap = h - 12;
 		}
-		console.log(hd);
-		return hd;
+	if (hap < 10) {
+		var hd = "0" + hap.toString();
+	}else {
+		var hd = hap.toString();
+	}
+	return hd;
 }
 
+
 function formatMinute(t) {
+	var md = "";
 	var m = t.getMinutes();
 	 	if (m < 10) {
-			var md = ":0" + m.toString();
+			md = ":0" + m.toString();
 		}else {
-			var md = ":" + m.toString();
+			md = ":" + m.toString();
 		}
 		return md;
 }
 
 function formatSecond(t) {
+	var sd = "";
 	var s = t.getSeconds();
 	 	if (s < 10) {
-			var sd = ":0" + s.toString();
+			sd = ":0" + s.toString();
 		}else {
-			var sd = ":" + s.toString();
+			sd = ":" + s.toString();
 		}
 		return sd;
 
 }
-displayTime();
+function formatAP(t) {
+	var ap = "";
+	var h = t.getHours();
+	if (h < 12) {
+		ap = "AM";
+	}else {
+		ap = "PM"
+	}
+	console.log(ap);
+	return ap;
+}
 
-// window.setInterval()
+displayTime();
