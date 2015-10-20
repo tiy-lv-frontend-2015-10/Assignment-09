@@ -13,16 +13,21 @@ $ (document).ready(function(){
   		minutes = "0" + minutes;
   	}
 
-
+	
   	if(hours > 12 ){
-  		hours = hours - 12;
+  		hours = "0" +  hours - 12 ;
   		
 
   	}
 
+
+
   	if (hours === 0){
   		hours = 12;
   	}
+
+  	
+
 
 
   	var Timer = document.getElementById("Timer");
