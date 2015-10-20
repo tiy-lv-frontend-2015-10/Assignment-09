@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+#container {}
+
+ h1 {
+    font-family: font-family: 'Libre Baskerville', serif;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#timerDiv {
+    position:
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 25%;  
+}
+
