@@ -1,0 +1,41 @@
+.clock {
+	width: 800px;
+	height: 290px;
+	background-color: black;
+	margin: auto;
+}
+
+.clock:hover {
+	background-color: red;
+	border: 10px solid black;
+}
+
+#clock:hover {
+	color: yellow;
+}
+
+#clock {
+	margin: auto;
+	padding-top: 75px;
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 95px;
+	font-weight: normal;
+}
+
+.hard {
+	width: 800px;
+	height: 290px;
+	margin: auto;
+}
+
+#hard {
+	margin: auto;
+	padding-top: 75px;
+	color: white;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 95px;
+	font-weight: normal;
+}
