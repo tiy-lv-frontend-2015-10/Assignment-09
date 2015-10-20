@@ -1,0 +1,18 @@
+#block {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 900px;
+	height: 500px;
+	border: 1px solid black;
+	background: black;
+}
+
+#timeSlot {
+	margin-top: 200px;
+	margin-left: 360px;
+}
+
+#hours, #minutes, #seconds {
+	color: white;
+	font-size: 3rem;
+}
