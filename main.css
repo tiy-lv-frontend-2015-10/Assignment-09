@@ -1,0 +1,15 @@
+body {
+	background : url("sky.jpg");
+
+}
+
+#clock {
+	font-size: 100px;
+	font-family: 'Kameron', serif;
+	position: relative;
+	top: 200px;
+	left: 100px;
+	color: white;
+	opacity: .3;
+	text-shadow: 5px 5px 25px white;
+}
