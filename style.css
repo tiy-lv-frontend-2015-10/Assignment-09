@@ -1,0 +1,11 @@
+body {
+  background: #3B8686;
+}
+
+#clock {
+  text-align: center;
+  padding-top: 250px;
+  color: #fff;
+  font-size: 100px;
+  font-family: Indie Flower;
+}
