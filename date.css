@@ -1,4 +1,4 @@
-#Timer{font-family: "lobster", cursive;
+#timer{font-family: "lobster", cursive;
 color:white;
 text-align: center;
 position: relative;
@@ -8,9 +8,3 @@ font-size: 70px;
 
 
 body{background-color: black;}
-
-
-
-
-
-
